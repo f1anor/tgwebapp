@@ -24,6 +24,7 @@ function App() {
     <div className="App">
       <button onClick={onClose}>Закрыть</button>
       <button onClick={handleFullscreen}>Fullscreen</button>
+      <div>{tg.initData}</div>
     </div>
   );
 }
